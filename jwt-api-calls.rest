@@ -1,0 +1,23 @@
+###
+
+GET http://localhost:9001/api/name
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImF2ZXJtZXVsZW4iLCJpYXQiOjE2NTExNjk2NDh9.JSJOHTWXrYEXBhUHC7qrQVTCeCOCr2RbrI293Y7Qp5w
+
+###
+
+POST http://localhost:9001/api/token
+content-type: application/json
+
+{
+    "username": "avermeulen"
+}
+
+###
+
+POST http://localhost:9001/api/token 
+content-type: application/json
+
+{
+    "username": "avee"
+}
+
